@@ -116,7 +116,6 @@ export default function PixelSpeechBubble({
       onPointerDown={onPointerDown}
       onClick={handleClick}
       className={`relative select-none cursor-pointer group/bubble animate-comic-bubble-pop transition-transform duration-150 hover:-translate-y-0.5 active:translate-y-0 ${className}`}
-      title={isTyping ? 'Click to finish text' : 'Click for next thought'}
     >
       {/* Pixel Art SVG Bubble Background */}
       <img

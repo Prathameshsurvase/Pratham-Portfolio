@@ -988,9 +988,8 @@ export default function AboutUs({ onLearnMoreClick }) {
                 onMouseEnter={handleBatmanMouseEnter}
                 onClick={handleBatmanClick}
                 onDoubleClick={handleResetDoodle}
-                data-cursor-label="DRAG ME 🛋️"
+                data-cursor-label="Drag me anywhere on screen 🛋️"
                 className="absolute bottom-full left-0 pointer-events-auto select-none z-30 cursor-grab active:cursor-grabbing touch-none group/batman"
-                title="Drag Batman anywhere! Hover or click to get a reaction 💬"
               >
                 {renderComicBubble(false)}
                 <img 
@@ -1170,9 +1169,8 @@ export default function AboutUs({ onLearnMoreClick }) {
           onMouseEnter={handleBatmanMouseEnter}
           onClick={handleBatmanClick}
           onDoubleClick={handleResetDoodle}
-          data-cursor-label={isDragging ? 'MOVING 😴' : 'DBL-CLICK RESET ↺'}
+          data-cursor-label={isDragging ? 'Moving Batman... 😴' : 'Double-click to return home ↺'}
           className="pointer-events-auto select-none cursor-grab active:cursor-grabbing touch-none group/batman-floating will-change-transform"
-          title="Drag Batman anywhere! Double-click to return home 🛋️"
         >
           {renderComicBubble(true)}
 

@@ -262,10 +262,11 @@ export default function CustomCursor() {
               </div>
             )}
 
-            {/* 5. Contextual Action Badge (Retro Terminal Tag) */}
+            {/* 5. Contextual Action Badge */}
             {cursorLabel && (
-              <div className="absolute left-6 top-3 flex items-center gap-1.5 px-2 py-0.5 bg-slate-950/95 border border-slate-700 rounded shadow-md whitespace-nowrap">
-                <span className="font-pixel text-[9px] uppercase tracking-wider text-white font-normal select-none">
+              <div className="absolute left-6 top-3 flex items-center gap-2 px-3 py-1 bg-slate-950/92 border border-slate-700/80 rounded-full shadow-[0_4px_18px_rgba(0,0,0,0.35)] backdrop-blur-md whitespace-nowrap">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0048DE] animate-pulse shrink-0" />
+                <span className="font-sans text-[11px] font-medium tracking-wide text-white select-none">
                   {cursorLabel}
                 </span>
               </div>
