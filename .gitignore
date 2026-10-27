@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 scratch/
+*.MOV
+*.mov
 
 # Editor directories and files
 .vscode/*
